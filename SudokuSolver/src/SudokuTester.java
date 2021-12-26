@@ -1,5 +1,6 @@
 public class SudokuTester {
     public static void main(String[] args){
+        /*
         Sudoku test = new Sudoku();
         System.out.println();
         test.printSudoku();
@@ -8,6 +9,8 @@ public class SudokuTester {
         System.out.println();
         test.printSudoku();
         System.out.println();
-       
+        
+       */
+        new GUIgame();
     }
 }

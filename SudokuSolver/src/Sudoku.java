@@ -8,7 +8,7 @@ public class Sudoku {
         int[][] ex = new int[9][9];
         int[][] empty = new int[9][9];
         while(true){
-            while(count != 16)
+            while(count != 20)
             {
                 int row= (int)(Math.random() * (9)+ 0);
                 int column= (int)(Math.random() * (9)+ 0);
@@ -26,6 +26,7 @@ public class Sudoku {
             } else {
                 board = empty;
                 ex = empty;
+                count=0;
             }
         }
 
